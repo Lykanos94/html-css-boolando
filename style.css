@@ -13,7 +13,80 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 
 }
+/* SEZIONE HEADER */
+header {
 
+    display: flex;
+
+    background-color: rgb(255, 102, 63);
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+
+    min-height:80px ;
+
+}
+
+.container-sinistro {
+
+    display: flex;
+
+    color: white;
+
+    width: 300px;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-weight: bold;
+
+    margin-left: 500px;
+
+}
+
+.span-header {
+
+    margin-right: 10px;
+
+}
+
+.container-logo {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;    
+
+    font-weight: 600px;
+
+}
+
+.container-destro > span {
+
+    margin-right: 10px;
+
+}
+
+.container-destro {
+
+    display: flex;
+
+    color: white;
+
+    width: 300px;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-weight: bold;
+
+    margin-left: 100px;
+
+}
+/* FINE SEZIONE HEADER */
+/* SEZIONE MAIN */
 #container {
 
     display: flex;
@@ -28,12 +101,6 @@ body {
 
 }
 
-img {
-
-    width: 250px;
-
-}
-
 .card{
 
     position: relative;
@@ -41,6 +108,66 @@ img {
     margin: 5px;
 
 }
+
+img {
+
+    display: flex;
+
+    width: 250px;
+
+}
+
+.img-container {
+
+    position: relative;
+
+    width: 250px;
+
+}
+
+.img-1 {
+
+    width: 100%;
+
+    height: auto;
+
+    
+
+}
+
+.img-1:hover {
+
+display: none;
+
+}
+
+.img-2 {
+
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+    width: 100%;
+
+    height: auto; 
+
+    opacity: 0;
+
+    transition: 0.3s;
+
+}
+
+.img-container:hover .img-2 {
+
+opacity: 1;
+
+}
+
+
+
+
 
 .card .discount {
 
@@ -107,6 +234,16 @@ img {
 
     color: black;
 
+    z-index: 2;
+
+}
+
+.cuore:hover {
+
+    cursor: pointer;
+
+    color: red;
+
 }
 
 .marca {
@@ -142,6 +279,61 @@ img {
     text-decoration: line-through;
 
 }
+/* FINE SEZIONE MAIN */
+/* SEZIONE FOOTER */
+
+footer {
+
+    display: flex;
+
+    min-height: 80px;
+
+    background-color: black;
+
+    justify-content: flex-start;
+
+    justify-content: space-between;
+
+}
+
+.container-informazioni {
+
+color: white;
+
+margin-left: 150px;
+
+margin-top: 30px;
+
+}
+
+.span-footer {
+
+    font-weight: bold;
+
+    padding-bottom: 3px;
+
+}
+
+.span-footer-destro {
+
+    font-weight: bold;
+
+    padding-bottom: 3px;
+
+    margin-right: 180px;
+
+}
+
+.container-social > span {
+
+    margin-right: 5px;
+
+}
+
+
+
+
+
 
 
 
