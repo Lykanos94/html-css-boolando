@@ -12,3 +12,6 @@ html-css-boolando
 
 5. creati span per sconto e spstenibilita
 
+6. creato div per contenere prezzi tipo di marca e tipo di vestito
+
+7. 

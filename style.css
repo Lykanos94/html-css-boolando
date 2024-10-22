@@ -76,3 +76,72 @@ img {
 
 
 }
+
+.verde {
+
+    position: absolute;
+
+    top: 300px;
+
+    left: 0;
+
+    background-color: green;
+
+    padding: 5px 10px;
+
+    color: white
+
+}
+
+.cuore {
+
+    position: absolute;
+
+    top: 10px;
+
+    right: 0;
+
+    background-color: white;
+
+    padding: 5px 10px;
+
+    color: black;
+
+}
+
+.marca {
+
+    color: grey;
+
+}
+
+.type {
+
+    font-weight: bold;
+
+}
+
+.price {
+
+    color: red;
+
+    font-weight: bold;
+
+    width: 50%;
+
+}
+
+.price-barrato {
+
+    position: absolute;
+
+    top: 400px;
+
+    left: 60px;
+
+    text-decoration: line-through;
+
+}
+
+
+
